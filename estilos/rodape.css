@@ -1,0 +1,74 @@
+.footer {
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 1rem;
+    height: auto;
+    justify-content: space-around;
+    padding: 0.5rem 0;
+    width: 100%;
+}
+
+.footer__empresa{
+    align-items: center;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    text-align: center;
+    width: 40%;
+}
+
+.footer__paragrafo{
+    line-height: 1.5rem;
+}
+
+.footer__img{
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+
+.footer__nilton{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 40%;
+}
+
+.footer__titulo{
+    font-weight: 400;
+    font-size: 1.5rem;
+} 
+
+.nilton__img__whats{
+    margin: 0.5rem 0rem 0.5rem 0rem;
+}
+
+@media screen and (min-width: 700px){
+    
+    .footer {
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer__img{
+        height: auto;
+        width: 10rem;
+    }
+
+    .footer__empresa{
+        gap: 1rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer__nilton{
+        margin: 0;
+        padding: 0;
+    }
+}

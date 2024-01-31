@@ -1,0 +1,39 @@
+.empresa__container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.empresa__img{
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.empresa__paragrafo{
+    margin-top: 3rem;
+}
+
+.video__empresa {
+    aspect-ratio: 16 / 9;
+    height: 100%;
+    width: 100%;
+}
+
+.video__empresa{
+    height: auto;
+    width: 100%;
+}
+
+@media screen and (min-width: 700px) {
+    .empresa__container{
+        padding: 5rem 0rem;
+        height: auto;
+    }
+
+    .video__empresa{
+        aspect-ratio: 16 / 9;
+        width: 100%;
+        max-width: 600px;
+    }
+}

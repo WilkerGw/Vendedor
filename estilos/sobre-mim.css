@@ -1,0 +1,39 @@
+.sobre__mim__container{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.sobre__mim__titulo{
+    font-size: 1.5rem;
+    margin: 0rem 0;
+}
+
+
+.sobre__mim__img{
+    border: 1px solid var(--vermelho-principal);
+    filter: grayscale(30%);
+}
+
+.sobre__mim__paragrafo{
+    align-self: center;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+@media screen and (min-width: 700px){
+    .sobre__mim__container{
+        gap: 1.5rem;
+        height: 100vh;
+        justify-content: center;
+        padding-bottom: 1rem;
+    }
+
+    .sobre__mim__img{
+        align-self: center;
+        border-radius: 0.2rem;
+        height: auto;
+        width: 20rem;
+    }
+    
+}
